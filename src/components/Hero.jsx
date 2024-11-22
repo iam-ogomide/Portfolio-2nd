@@ -1,5 +1,5 @@
 import React from 'react';
-import image from "/profile.png";
+import image from "/a4.jpg";
 import { motion } from 'framer-motion';
 
 const Hero = () => {
@@ -11,7 +11,7 @@ const Hero = () => {
           animate={{y:0, opacity:1}}
           transition={{duration: 0.8, delay:0.2}}
         >
-          <img src={image} alt="" className='w-[300px] cursor-pointer rounded-full shadow-xl shadow-indigo-900 transition-all duration-300 hover:-translate-y-5 hover:scale-105 hover:shadow-2xl hover:shadow-indigo-600 md:w-[350px]' />
+          <img src={image} alt="" className='w-[200px] cursor-pointer rounded-full shadow-xl shadow-indigo-900 transition-all duration-300 hover:-translate-y-5 hover:scale-105 hover:shadow-2xl hover:shadow-indigo-600 md:w-[350px]' />
         </motion.div>
 
         <motion.div
@@ -21,7 +21,8 @@ const Hero = () => {
          className="flex max-w-[600px] flex-col items-center justify-center gap-3 text-center">
           <h1 className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent text-5xl font-light md:text-7xl">Daramola Ogomide</h1>
           <h3 className="bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent text-2xl md:text-3xl">Frontend Engineer</h3>
-          <p className='md:text-base text-pretty text-sm text-gray-400'>I'm a Frontend Engineer skilled in React and Typescript. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit deserunt accusantium asperiores hic soluta sint cumque reprehenderit, voluptatum animi dignissimos.</p>
+          <p className='md:text-base text-pretty text-sm text-gray-400'>Experienced Software Engineer with a proven track record of identifying innovative solutions and implementing strategic improvements in both web and mobile platforms. </p>
+          <p className='md:text-base text-pretty text-sm text-gray-400'>Adept in Angular,React, TypeScript, JavaScript. I combine creativity with technical precision to deliver software solutions that are not only efficient but also maintainable and adaptable to future requirements. </p>
         </motion.div>
       </div>
     </div>
