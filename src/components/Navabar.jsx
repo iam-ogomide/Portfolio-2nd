@@ -74,17 +74,14 @@ const Navabar = () => {
                     </a>
                 </ul>
 
-                <ul className="flex flex-wrap gap-5">
+                <a href="https://www.linkedin.com/in/ogomide-daramola-a79484250/" target='_blank'>
             <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
                 <BsLinkedin />
-            </li>
+            </li></a>
+            <a href="https://github.com/iam-ogomide" target='_blank'>
             <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-500 hover:opacity-100">
                 <BsGithub />
-            </li>
-            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-sky-500 hover:opacity-100">
-                <BsTwitterX />
-            </li>
-        </ul>
+            </li></a>
             </div>
         )}
 
