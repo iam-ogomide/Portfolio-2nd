@@ -1,6 +1,7 @@
 import image1 from "/chowie.png";
 import image2 from "/corgy.png";
 import image3 from "/Madera.png";
+import image4 from "/degens.png";
 import { motion } from "framer-motion";
 
 
@@ -24,7 +25,14 @@ const Data = [
     title: "Madera",
     description:"A frontend web application that was built for a client who owns a furniture company",
     stack: ['Angular', 'Typescript'],
-    link:"https://madera-self.vercel.app/"
+    link:"https://madera-self.vercel.app"
+  },
+  {
+    image:image4,
+    title: "Degens",
+    description:"A frontend NFT web application",
+    stack: ['React', 'Javascript'],
+    link:"https://degie.netlify.app"
   },
   
 ];
